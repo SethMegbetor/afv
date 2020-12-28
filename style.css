@@ -113,13 +113,13 @@ nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   transition: width 0.6s linear;
   overflow-x: hidden;
-  margin-left: 50%;
+  margin-left: 35%;
 }
 
 
 
 nav.active {
-  width: 550px;
+  width: 100%;
 }
 
 
