@@ -217,4 +217,9 @@ nav.active .icon .line2 {
   nav.active{
       margin-left: 0px;
   }
+
+  .logo{
+    margin-right: 5px;
+    margin-top: auto;
+  }
 }
