@@ -1,109 +1,44 @@
-body{
-  height: 100vh;
-  margin: 0;
-  background-color: rgb(36, 32, 32);
-}
-
-.content{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slider-wrapper{
-  font-size: 40px;
-  color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slider{
-  height: 50px;
-  padding-left: 15px;
-  /* hide the text */
-  overflow: hidden;
-}
-
-.slider div{
-  color: white;
-  height: 50px;
-  margin-bottom: 50px;
-  padding: 2px 15px;
-  text-align: center;
-  /* to make it perfectly align */
-  box-sizing: border-box;
-}
-
-.slider-text1{
-  background: #5290f9;
-  animation: slide 8s linear infinite;
-}
-.slider-text2{
-  background: #5290f9;
-}
-.slider-text3{
-  background: #5290f9;
-}
-.slider-text4{
-  background: #5290f9;
-}
-
-@keyframes slide{
-  0%{margin-top: -300px;}
-  5%{margin-top: -200px;}
-  33%{margin-top: -200px;}
-  38%{margin-top: -100px;}
-  66%{margin-top: -100px;}
-  71%{margin-top: 0px;}
-  100%{margin-top: 0px;}
-}
-
-/* for the navigation menu */
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
-/* body {
-  background-color: #eafbff;
-  background-image: linear-gradient(
+body {
+  /* background-color: #eafbff; */
+  background-color: #555f93;
+  /* background-image: linear-gradient(
     to bottom,
     #eafbff 0%,
     #eafbff 50%,
     #5290f9 50%,
     #5290f9 100%
-  );
-  font-family: 'Muli', sans-serif;
-  display: flex;
+  ); */
+  font-family: "Muli", sans-serif;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
-} */
-
-.navContainer{
+}
+.navContainer {
+  background-color: black;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  height: 50px;
+  margin-top: 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
-img{
-  width: 200px;
+img {
+  width: 100px;
   height: 50px;
 }
 
-
-
 nav {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: black;
   padding: 20px;
   width: 80px;
   display: flex;
@@ -113,16 +48,17 @@ nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   transition: width 0.6s linear;
   overflow-x: hidden;
-  margin-left: 35%;
 }
-
-
 
 nav.active {
-  width: 100%;
+  width: 350px;
 }
 
-
+nav a.current,
+nav a:hover {
+  color: #c0392b;
+  font-weight: bold;
+}
 
 nav ul {
   display: flex;
@@ -150,13 +86,15 @@ nav.active ul li {
 
 nav ul a {
   position: relative;
-  color: #000;
+  /* color: #000; */
+  color: white;
   text-decoration: none;
   margin: 0 10px;
 }
 
 .icon {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: black;
   border: 0;
   cursor: pointer;
   padding: 0;
@@ -192,34 +130,121 @@ nav.active .icon .line2 {
   transform: rotate(765deg) translateY(-5.5px);
 }
 
+.active a.current,
+.active a:hover {
+  /* color: #c0392b; */
+  color: #5290f9;
+  font-weight: bold;
+}
+
+/* sliding text */
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(36, 32, 32);
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-wrapper {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  height: 50px;
+  padding-left: 15px;
+  /* hide the text */
+  overflow: hidden;
+}
+
+.slider div {
+  color: white;
+  height: 50px;
+  margin-bottom: 50px;
+  padding: 2px 15px;
+  text-align: center;
+  /* to make it perfectly align */
+  box-sizing: border-box;
+}
+
+.slider-text1 {
+  background: #5290f9;
+  animation: slide 8s linear infinite;
+}
+.slider-text2 {
+  background: #5290f9;
+}
+.slider-text3 {
+  background: #5290f9;
+}
+.slider-text4 {
+  background: #5290f9;
+}
+
+@keyframes slide {
+  0% {
+    margin-top: -300px;
+  }
+  5% {
+    margin-top: -200px;
+  }
+  33% {
+    margin-top: -200px;
+  }
+  38% {
+    margin-top: -100px;
+  }
+  66% {
+    margin-top: -100px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
 
 /* mobile view */
 /* Most of the Smartphones Mobiles (Portrait) */
 @media (min-width: 320px) and (max-width: 480px) {
-  img{
-    width: 100px;
-    height: 25px;
-  }
-
-  .navContainer{
-    display: flex;
+  nav.active {
     margin-left: 0px;
-    margin-right: 0px;
-    background-color: rgb(59, 57, 57);
-    padding: 5px;
+    width: 300px;
+  }
+  nav {
+    padding: 0px;
   }
 
-  nav{
-    margin-left: 20%;
-    padding: 5px;
-    padding-left: 0px;
-  }
-  nav.active{
-      margin-left: 0px;
+  nav > ul {
+    /* display: block; */
+    color: red;
+    /* background-color: green; */
+    padding: auto;
+    padding-right: 0px;
+    align-items: center;
+    text-align: center;
+    /* padding-inline-start: 0px; */
   }
 
-  .logo{
-    margin-right: 5px;
-    margin-top: auto;
+  /* nav > ul > li {
+    align-items: center;
+    text-align: center;
+  } */
+  img {
+    width: 80px;
+    height: 50px;
   }
 }
