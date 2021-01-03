@@ -1,69 +1,211 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Import the google web fonts you want to use */
+
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/* Card Based Layout - Base styles */
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: hsl(0, 0%, 90%);
 }
 
-.person {
-  background: #eeeeee;
-  width: 17rem;
-  padding: 1rem;
-  margin: 2rem auto;
-  border-radius: 0.3rem;
-  text-align: center;
-  /* after the hover */
-  transition: all 0.3s linear;
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-/* for some hover effect */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
 
-.person:hover {
+h2 {
+  font-size: 1rem;
+  color: #007489;
+}
+
+p {
+  margin-bottom: 1.5em;
+  color: #898989;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0 1.5em;
+}
+
+address {
+  margin: 0 0 1.5em;
+}
+
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  /* max-width: 100%; */
+  max-width: 50%;
+  overflow: auto;
+  padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+  font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+abbr,
+acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+mark,
+ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+
+sup,
+sub {
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: 0.5ex;
+}
+
+small {
+  font-size: 75%;
+}
+
+big {
+  font-size: 125%;
+}
+
+.masthead {
+  background-color: #005b75;
+}
+
+.masthead p,
+.masthead p a {
+  color: white;
+}
+
+.site-title {
+  color: white;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+  /* margin: 5px; */
+}
+
+.card {
+  background: white;
+  margin-bottom: 2em;
+  padding: 5px;
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+}
+
+.card a:hover {
+  /* box-shadow: 3px 3px 8px hsl(0, 0%, 80%); */
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* for the image */
-.person img {
-  border-radius: 50%;
-  border: 0.1rem solid teal;
+.card:hover {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.testImage {
-  width: 100px;
-  height: 100px;
+.card-content {
+  padding: 1.4em;
 }
 
-.person-list {
-  display: flex;
+.card-content h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: bold;
 }
 
-.person h4 {
-  text-transform: capitalize;
-  margin: 0.5rem 0;
-  letter-spacing: 0.15rem;
-  color: teal;
+.card-content p {
+  font-size: 80%;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .person-list {
-    display: block;
+article {
+  /* display: none; */
+  /* width: 50px; */
+}
+
+.card {
+  flex: 0 4 calc(25% - 8em);
+
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  margin: 5px;
+  text-align: center;
+  /* padding: 20px; */
+}
+/* Flexbox stuff */
+
+@media screen and (min-width: 40em) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    /* flex: 0 1 calc(50% - 1em); */
+    flex: 0 4 calc(25% - 5em);
   }
 }
-/* now for the media queries */
-/* @media only screen and(min-width: 768px) {
-  .person-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-  }
-} */
 
-/* @media only screen and(min-width: 992px) {
-  .person-list {
-    grid-template-columns: repeat(3, 1fr);
+@media screen and (min-width: 60em) {
+  .card {
+    flex: 0 1 calc(25% - 8em);
   }
-} */
+}
