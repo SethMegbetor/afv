@@ -40,7 +40,7 @@ h2 {
 
 p {
   margin-bottom: 1.5em;
-  color: #898989;
+  color: #fff;
 }
 
 b,
@@ -144,7 +144,7 @@ img {
 }
 
 .card {
-  background: white;
+  background: #050404;
   margin-bottom: 2em;
   padding: 5px;
 }
@@ -175,6 +175,8 @@ img {
 
 .card-content p {
   font-size: 80%;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 article {
@@ -190,7 +192,7 @@ article {
   margin: 5px;
   text-align: center;
   height: 300px;
-  /* padding: 20px; */
+  padding: 10px;
 }
 /* Flexbox stuff */
 
