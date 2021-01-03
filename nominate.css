@@ -137,7 +137,9 @@ img {
   display: block;
   border: 0;
   width: 100%;
-  height: auto;
+  /* width: 50%; */
+  /* height: auto; */
+  height:20%;
   /* margin: 5px; */
 }
 
@@ -187,6 +189,7 @@ article {
   box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
   margin: 5px;
   text-align: center;
+  height: 300px;
   /* padding: 20px; */
 }
 /* Flexbox stuff */
