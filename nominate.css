@@ -121,7 +121,8 @@ big {
 }
 
 .masthead {
-  background-color: #005b75;
+  /* background-color: #005b75; */
+  background-color: black;
 }
 
 .masthead p,
