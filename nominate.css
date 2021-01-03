@@ -174,7 +174,7 @@ img {
 }
 
 .card-content p {
-  font-size: 80%;
+  font-size: 120%;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -184,6 +184,17 @@ article {
   /* width: 50px; */
 }
 
+picture> img{
+  width: 50%;
+  height: 30px;
+  padding: 0px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+picture{
+  justify-content: center;
+  align-items: center;
+}
 .card {
   flex: 0 4 calc(25% - 8em);
 
