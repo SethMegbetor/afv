@@ -129,6 +129,11 @@ big {
     text-align: center;
 }
 
+.site-branding{
+  justify-content: center;
+    text-align: center;
+}
+
 .masthead p,
 .masthead p a {
   color: white;
