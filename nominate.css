@@ -5,7 +5,9 @@
 /* Card Based Layout - Base styles */
 
 body {
-  background: hsl(0, 0%, 90%);
+  /* background: hsl(0, 0%, 90%); */
+  background-image: linear-gradient(90deg, purple, brown);
+  display: block;
 }
 
 /*--------------------------------------------------------------
@@ -132,6 +134,7 @@ big {
 
 .site-title {
   color: white;
+  margin: 1px;
 }
 
 img {
