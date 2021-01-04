@@ -125,6 +125,8 @@ big {
 .masthead {
   /* background-color: #005b75; */
   background-color: black;
+  justify-content: center;
+    text-align: center;
 }
 
 .masthead p,
