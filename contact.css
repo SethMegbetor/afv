@@ -87,7 +87,11 @@
 .googleMap{
   justify-content: center;
   text-align: center;
+}
 
+iframe{
+  width: auto;
+  height: 300px;
 }
 
 @media screen and (max-width:900px){
