@@ -4,46 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+   
+</head>
+<body>
+  
+</body>
+</html>
+
+<!-- start of code -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./contact.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-</head>
-<body>
-  <div class="mainContact">
-    <div class="contact-info">
-        <div class="card">
-            <i class="icon fas fa-envelope"></i>
-            <div class="card-content">
-                <h3>Email</h3>
-                <span id="topSpan">voltafashionawards@gmail.com</span>
-                <br>
-                <span>strawmanevents@gmail.com</span>
-                <!-- <h6>strawmanevents@gmail.com</h6> -->
-            </div>
-        </div>
-
-        <div class="card">
-            <i class="icon fas fa-phone"></i>
-            <div class="card-content">
-                <h3>Phone Number</h3>
-                <span id="topSpan">+233 544 322 419</span><br>
-                <span>+233 242 688 836</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <i class="icon fas fa-map-marker-alt"></i>
-            <div class="card-content">
-                <h3>Location</h3>
-                <span id="topSpan">Ho, Volta Region. Ghana</span>
-                <span>VH-0021-2628</span>
-            </div>
-        </div>
+    <!-- <link rel="stylesheet" href="./nominate.css"> -->
+    <link rel="stylesheet" href="./nav.css" />
+    <title>Volta Fashion Awards</title>
+  </head>
+  <body>
+    <div class="navContainer">
+      <nav class="active" id="nav">
+        <ul>
+          <li><a href="#" class="current">Home</a></li>
+          <li><a href="./nominate.html" >Nominate</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <button class="icon" id="toggle">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+        </button>
+      </nav>
     </div>
+    <div class="mainContact">
+      <div class="contact-info">
+          <div class="card">
+              <i class="icon fas fa-envelope"></i>
+              <div class="card-content">
+                  <h3>Email</h3>
+                  <span id="topSpan">voltafashionawards@gmail.com</span>
+                  <br>
+                  <span>strawmanevents@gmail.com</span>
+                  <!-- <h6>strawmanevents@gmail.com</h6> -->
+              </div>
+          </div>
+  
+          <div class="card">
+              <i class="icon fas fa-phone"></i>
+              <div class="card-content">
+                  <h3>Phone Number</h3>
+                  <span id="topSpan">+233 544 322 419</span><br>
+                  <span>+233 242 688 836</span>
+              </div>
+          </div>
+  
+          <div class="card">
+              <i class="icon fas fa-map-marker-alt"></i>
+              <div class="card-content">
+                  <h3>Location</h3>
+                  <span id="topSpan">Ho, Volta Region. Ghana</span>
+                  <span>VH-0021-2628</span>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- google map -->
+    <div class="googleMap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1355.1046998305583!2d0.46760163924551856!3d6.59658837984996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sgh!4v1610054562142!5m2!1sen!2sgh" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   </div>
-  <!-- google map -->
-  <div class="googleMap">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1355.1046998305583!2d0.46760163924551856!3d6.59658837984996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sgh!4v1610054562142!5m2!1sen!2sgh" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-</div>
-</body>
+    <script src="./nav.js"></script>
+  </body>
 </html>

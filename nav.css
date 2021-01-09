@@ -80,13 +80,13 @@ nav ul a {
 
 .navContainer {
     background-color: black;
-    display: flex;
     height: 115px;
-    /* margin-top: 10px; */
     width: 100%;
-    align-items: center;
+    display: block;
+    height: auto;
     justify-content: center;
-  }
+    text-align: center;
+    }
   
 
 .icon {
@@ -125,6 +125,14 @@ nav.active .icon .line1 {
 nav.active .icon .line2 {
   transform: rotate(765deg) translateY(-5.5px);
 }
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
 
 /* 
   ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
