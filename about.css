@@ -14,7 +14,7 @@
 } */
 
 .aboutContainer{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     height: 10px;
     display: flex;
     align-items: center;
@@ -22,6 +22,22 @@
     background-color: #f1f1f1;
   }
 
+  .logoContainer{
+    height:auto;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .logoContainer > img{
+    height: 140px;
+    width: 450px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+  }
 
 .about-section{
   background: url(./about.JPG) no-repeat left;
@@ -29,6 +45,8 @@
   background-color: #fdfdfd;
   overflow: hidden;
   padding: 100px 0;
+  position: absolute;
+  top: 940px;
 }
 
 .inner-container{

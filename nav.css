@@ -136,12 +136,23 @@ nav.active .icon .line2 {
 }
 
 .about-section-top {
-  /* padding: 50px; */
+  width: 100%;
+  padding: 15px;
   text-align: center;
   background-color: black;
   color: white;
   position: absolute;
   /* margin-top: 305px; */
+}
+
+.about-section-top > h1{
+  font-size: 50px;
+}
+
+.about-section-top > p{
+  font-size: 20px;
+  margin: 0px;
+}
 
 
 /* 
@@ -275,5 +286,3 @@ nav{
     padding: 10px;
 }
   }
-
-}
