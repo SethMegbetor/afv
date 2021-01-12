@@ -53,3 +53,14 @@ img {
 .btn:focus {
   outline: none;
 }
+
+.carouselContainer{
+  position: absolute;
+    top: 170px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .carouselContainer{
+    display: none;
+  }
+}

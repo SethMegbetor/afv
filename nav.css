@@ -133,6 +133,14 @@ nav.active .icon .line2 {
   color: white;
 }
 
+.about-section-top {
+  /* padding: 50px; */
+  text-align: center;
+  background-color: black;
+  color: white;
+  position: absolute;
+  /* margin-top: 305px; */
+
 
 /* 
   ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
@@ -260,4 +268,4 @@ nav ul li {
 nav{
     padding: 10px;
 }
-  }
+  }}
