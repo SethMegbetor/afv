@@ -37,7 +37,7 @@ nav {
 }
 
 nav.active {
-  width: 350px;
+  width: 100%;
 }
 
 nav a.current,
@@ -76,6 +76,7 @@ nav ul a {
   color: #000;
   text-decoration: none;
   margin: 0 10px;
+  font-size: 14.5px;
 }
 
 .navContainer {
@@ -265,7 +266,13 @@ nav ul li {
     font-size: 10px;
 }
 
+.nav.active{
+  display:none;
+}
+
 nav{
     padding: 10px;
 }
-  }}
+  }
+
+}
