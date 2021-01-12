@@ -94,9 +94,25 @@ iframe{
   height: 300px;
 }
 
+.sicon {
+  background-color: #000;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  height: 30px;
+  width: 30px;
+}
 @media screen and (max-width:900px){
   .card{
       flex: 100%;
       max-width: 500px;
   }
+}
+
+.top1{
+  margin-bottom: 25px;
+}
+.top2{
+  margin-bottom: -25px;
 }

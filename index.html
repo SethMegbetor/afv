@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./carousel.css">
+    <link rel="stylesheet" href="./about.css">
     <link rel="stylesheet" href="./nominate.css">
     <link rel="stylesheet" href="./nav.css" />
+    <!-- <link rel="stylesheet" href="./missionAndVision.scss"> -->
+    <link rel="stylesheet" href="./missionAndVision.css">
     <title>Volta Fashion Awards</title>
   </head>
   <body>
@@ -21,17 +25,89 @@
           <div class="line line2"></div>
         </button>
       </nav>
-      <div class="about-section">
+      <!-- section below the nav -->
+      <div class="about-section-top">
         <h1>About Us Page</h1>
         <p>Some text about who we are and what we do.</p>
         <p>Resize the browser window to see that this page is responsive by the way.</p>
       </div>
+      <!-- end of section below the nav -->
+
+      <!-- start of image carousel -->
+      <div class="carouselContainer">
+      <div class="carousel">
+        <div class="image-container" id="imgs">
+          <img src="./slidderImages/img1.jpg"
+         alt="first-image"
+         />
+      <img
+         src="./slidderImages/img2.jpg"
+         alt="second-image"
+         />
+      <img
+         src="./slidderImages/img3.JPG"
+         alt="third-image"
+         />
+      <img
+         src="./slidderImages/img4.JPG"
+         alt="fourth-image"
+         />
+        </div>
+  
+        <div class="buttons-container">
+          <button id="left" class="btn">Prev</button>
+          <button id="right" class="btn">Next</button>
+        </div>
+      </div>
     </div>
-    <p>
-      LAUNCHING SOON
-      <br>
-      GO AHEAD AND <a href="./nominate.html">NOMINATE</a>
-    </p>
+  </div>
+  <!-- end of image carousel -->
+
+    <!-- start of about content -->
+    <div class="aboutContainer">
+      <div class="about-section">
+          <div class="inner-container">
+              <h1>About Us</h1>
+              <p class="text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+              </p>
+              <div class="skills">
+                  <span>Web Design</span>
+                  <span>Photoshop & Illustrator</span>
+                  <span>Coding</span>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- end of about content -->
+    <!-- start of mission and vision -->
+<div class="misionAndVision">
+  <div class="deck">
+    <div class="card-space">
+      <div class="card">
+        <div class="face front">
+          <h1>Mission Statement</h1>
+        </div>
+        <div class="face back">
+          <p>A mission statement is a short summary of an organization’s core purpose, focus, and aims. This usually includes a brief description of what the organization does and its key objectives.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card-space">
+      <div class="card">
+        <div class="face front">
+          <h1>Vision Statement</h1>
+        </div>
+        <div class="face back">
+          <p>A vision statement is a short description of an organization’s aspirations and the wider impact it aims to create. It should be a guiding beacon to everyone within the organization and something which underpins internal decision-making and determines the intended direction of the organization.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <footer><a href="https://www.oberlo.com/blog/inspiring-mission-vision-statement-examples">https://www.oberlo.com/blog/inspiring-mission-vision-statement-examples</a></footer> -->
+</div>
+    <!-- end of mission and vision -->
+    <script src="./carousel.js"></script>
     <script src="./nav.js"></script>
   </body>
 </html>
