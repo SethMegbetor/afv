@@ -61,7 +61,7 @@ img {
 .carouselContainer{
   position: absolute;
     top: 404px;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
