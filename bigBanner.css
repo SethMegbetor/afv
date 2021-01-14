@@ -148,6 +148,7 @@
   display: block;
   position: absolute;
   top: 270px;
+  height: auto;
 }
 
 .bigBanner > .textAnimation > .textWrapper > h1{
@@ -186,6 +187,7 @@
 
 .bannerImage {
   width: 100%;
+  height: auto;
   margin: auto;
   justify-content: center;
   text-align: center;
@@ -195,5 +197,6 @@
   padding-top: 10px;
   width: 300px;
   height: 330px;
+  margin: auto;
 }
 }
