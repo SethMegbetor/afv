@@ -285,4 +285,24 @@ nav ul li {
 nav{
     padding: 10px;
 }
+
+
+.about-section-top > h1 {
+  font-size: 40px;
+}
+
+.about-section-top {
+  width: 100%;
+  padding: 13px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  position: absolute;
+  /* margin-top: 305px; */
+  top: 60px;
+}
+
+.about-section-top > p {
+  font-size: 17px;
+}
   }
