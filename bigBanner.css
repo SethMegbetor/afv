@@ -184,6 +184,13 @@
   background: black;
 }
 
+.bannerImage {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
 .bannerImage > img{
   padding-top: 10px;
   width: 300px;
