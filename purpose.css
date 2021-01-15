@@ -1,0 +1,21 @@
+.purposeContainer{
+  position: absolute;
+  top: 1660px;
+  background-color: #fff;
+  color: black;
+}
+
+.purposeContainer > .purposeInside > p{
+  border-style: solid;
+  color: black;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.purposeContainer > .purposeInside{
+  width: 95%;
+  margin: auto;
+}

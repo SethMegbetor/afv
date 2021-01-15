@@ -68,6 +68,8 @@
   line-height: 30px;
   text-align: justify;
   margin-bottom: 40px;
+  border-style: solid;
+  padding: 10px;
 }
 
 .skills{
