@@ -1,6 +1,6 @@
 .imageGalleryContainer{
   position: absolute;
-  top: 2410px;
+  top: 2430px;
 }
 
 .imageGallery > ul {
@@ -95,7 +95,9 @@
 */
 @media (min-width: 481px) and (max-width: 767px) {
   
-  /* CSS */
+  .imageContainer{
+    display: none;
+  }
   
 }
 
@@ -108,5 +110,16 @@
   .imageGalleryContainer > .imageGallery > ul > li > a > img{
     height: 100%;
   }
+
+  .imageContainer{
+    top: 2320px;
+  }
   
+}
+
+@media (min-width: 374px) and (max-width: 424px){
+
+  .imageContainer{
+    top: 320px;
+  }
 }

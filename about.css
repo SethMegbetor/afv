@@ -134,3 +134,18 @@ color: black;
   padding: 10px;
 }
 }
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .aboutContainer{
+    position: absolute;
+    top: -135px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1443px){
+  .about-section{
+    position: absolute;
+    top: 800px;
+  }
+}
