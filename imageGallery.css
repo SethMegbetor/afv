@@ -117,9 +117,9 @@
   
 }
 
-@media (min-width: 374px) and (max-width: 424px){
+@media (min-width: 375px) and (max-width: 424px){
 
-  .imageContainer{
-    top: 320px;
+  .imageGalleryContainer{
+    top: 2170px;
   }
 }
