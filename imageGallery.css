@@ -55,6 +55,14 @@
   }
 }
 
+.imageGalleryContainer > .imageGallery > ul > li > a > img {
+  height: 100%;
+}
+
+.imageGallery > ul > li {
+height: 100%;
+}
+
 /* 
   ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
 */
@@ -122,4 +130,25 @@
   .imageGalleryContainer{
     top: 2170px;
   }
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+
+  .imageGalleryContainer{
+    top: 1990px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+
+  .imageGalleryContainer{
+    top: 2010px;
+  }
+
+  .imageGalleryContainer > .imageGallery > ul > li > a > img {
+    height: 100%;
+}
+
+.imageGallery > ul > li {
+  height: 100%;
+}
 }

@@ -77,3 +77,9 @@ top: -30%;
     text-align: center;
 }
 }
+@media (max-width: 1023px) and (min-width: 768px)
+{
+ .socialMedia > .middle {
+    top: 1000px;
+}
+}
