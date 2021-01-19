@@ -149,3 +149,11 @@ color: black;
     top: 800px;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .aboutContainer{
+    top: 950px;
+    }
+  
+}
