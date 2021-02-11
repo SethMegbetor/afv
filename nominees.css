@@ -1,3 +1,7 @@
+.imageAndAccordion{
+  display: block;
+}
+
 .container {
   width: 80%;
   margin: auto;
