@@ -154,6 +154,10 @@ nav.active .icon .line2 {
   margin: 0px;
 }
 
+.about-section-top > h1> a {
+  color: #e777bfa1;
+}
+
 
 /* 
   ##Device = Desktops  ##Screen = 1281px to higher resolution desktops
